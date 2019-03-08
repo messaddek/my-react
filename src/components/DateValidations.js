@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import * as DateUtils from './DateUtils';
 
-class FormContainer extends Component {
+export default class DateValidation extends Component {
   
   constructor () {
     super();
@@ -31,7 +31,6 @@ class FormContainer extends Component {
       }); 
   }
 
-  
    render() {
       return (
         <div>
@@ -67,10 +66,4 @@ class FormContainer extends Component {
         
       );
   }
-
-  
-
 }
-
-
-export default FormContainer;

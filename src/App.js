@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import FormContainer from './components/DateValidations'
+import DateValidations from './components/DateValidations'
 import './App.css';
 
 class App extends Component {
@@ -10,7 +10,7 @@ class App extends Component {
         <div className="col-md-2"></div>
           <div className="col-md-8">
             <div className="App">
-              <FormContainer />
+              <DateValidations />
             </div>
           </div>
       </div>
